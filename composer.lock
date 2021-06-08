@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "934e518c6cf7ced52c6b855b2258fd13",
+    "content-hash": "2f9e5d5c2130f2c21e91cc759271336b",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2184,6 +2184,35 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
             "time": "2021-04-26T09:17:50+00:00"
+        },
+        {
+            "name": "gvb/training",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./DistributionPackages/Gvb.Training",
+                "reference": "7e3c7391ad0db1e519d7b01b2f09e2b64ee87b91"
+            },
+            "require": {
+                "neos/neos": "*"
+            },
+            "suggest": {
+                "neos/seo": "*"
+            },
+            "type": "neos-site",
+            "extra": {
+                "neos": {
+                    "package-key": "Gvb.Training"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gvb\\Training\\": "Classes/"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "imagine/imagine",
@@ -10259,7 +10288,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "gvb/training": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

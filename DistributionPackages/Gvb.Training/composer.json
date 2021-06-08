@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "gvb/training",
+    "autoload": {
+        "psr-4": {
+            "Gvb\\Training\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Gvb.Training"
+        }
+    }
+}
