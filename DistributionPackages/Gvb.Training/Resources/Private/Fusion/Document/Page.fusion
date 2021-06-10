@@ -1,0 +1,1 @@
+prototype(Gvb.Training:Document.Page) < prototype(Gvb.Training:Document.AbstractPage)
